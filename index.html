@@ -15,6 +15,33 @@
     <title>BlogSpace</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="nav"><h2 class="nav-text">BlogSpace</h2></nav>
+      <main>
+        <form class="form" id="new-post">
+          <div class="form-wraper">
+            <label for="post-title" class="label-text">Title:</label>
+            <input type="text" id="post-title" class="post-title" />
+          </div>
+          <div class="form-wraper">
+            <label for="post-body" class="label-text">Body:</label>
+            <textarea id="post-body" class="post-body"></textarea>
+          </div>
+          <div class="form-wraper">
+            <input type="submit" value="Post" class="submit-btn" />
+          </div>
+        </form>
+      </main>
+
+      <section id="blog-list" class="blog-list"></section>
+    </div>
+    <footer>
+      <p class="footer-text">
+        Challenge by
+        <a href="https://scrimba.com/dashboard#overview">Scrimba</a>. Coded by
+        <a href="#">Nazim Bayraktar.</a>
+      </p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
