@@ -1,4 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Kalam', cursive;
   background-color: aliceblue;
+  color: #333;
+}
+
+hr {
+  margin: 1.5em 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 10px 20px 40px 5px #5a5a5a;
+  background-color: whitesmoke;
+}
+
+.nav {
+  background-color: #ddf2fb;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 700px;
+}
+
+.nav-text {
+  padding: 1em;
+  font-size: 1.5rem;
+}
+
+.form {
+  margin-top: 4.3em;
+  padding: 3em 1em 0 1em;
+}
+
+.form-wraper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.label-text {
+  font-size: 1.5rem;
+}
+
+.post-title,
+.post-body,
+.submit-btn {
+  padding: 0.2em;
+  font-family: 'Kalam', cursive;
+  font-size: 1.2rem;
+  border: 1px solid rgb(51, 51, 51, 0.4);
+  border-radius: 3px;
+}
+
+.submit-btn {
+  background-color: aliceblue;
+  padding-top: 0.4em;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #ddf2fb;
+}
+
+.blog-list {
+  padding: 1em;
+}
+
+.blog-text {
+  letter-spacing: 1px;
+}
+
+footer {
+  width: 99%;
+  margin: 0 auto;
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 1em;
+  font-family: 'Courier New', Courier, monospace;
 }
